@@ -1,0 +1,52 @@
+﻿Build1=Default,B4RDev
+Group=Default Group
+Library1=rcore
+NumberOfFiles=0
+NumberOfLibraries=1
+NumberOfModules=0
+Version=2.8
+@EndOfDesignText@
+
+#Region Project Attributes
+	#AutoFlushLogs: True
+	#CheckArrayBounds: True
+	#StackBufferSize: 300
+#End Region
+
+Sub Process_Globals
+	Dim Serial1 As Serial
+	Dim red,green,blue As Pin
+End Sub
+
+Private Sub AppStart
+	Serial1.Initialize(115200)
+	Log("AppStart")
+	
+	red.Initialize(11,red.MODE_OUTPUT)
+	green.Initialize(12,green.MODE_OUTPUT)
+	blue.Initialize(13,blue.MODE_OUTPUT)
+
+	
+	Do While True
+		'Red LED
+		red.DigitalWrite(True)
+		Delay(500)
+		red.DigitalWrite(False)
+		Delay(500)
+		
+		'Green LED
+		green.DigitalWrite(True)
+		Delay(500)
+		green.DigitalWrite(False)
+		Delay(500)
+		
+		'Blue LED
+		blue.DigitalWrite(True)
+		Delay(500)
+		blue.DigitalWrite(False)
+		Delay(500)		
+
+	Loop
+End Sub
+
+

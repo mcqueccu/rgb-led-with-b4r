@@ -1,0 +1,42 @@
+[
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "C:\\Users\\Developer\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.5.0\\cores\\esp8266"
+  },
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "C:\\Users\\Developer\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.5.0\\variants\\nodemcu"
+  },
+  {
+    "Sourcefile": "C:\\BACKUUP\\ANDROI~1\\AB4A5~1.0CO\\B4RPRO~1\\Blink\\Objects\\bin\\sketch\\src.ino.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\BACKUUP\\ANDROI~1\\AB4A5~1.0CO\\B4RPRO~1\\Blink\\Objects\\bin\\sketch\\B4RArduino.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\BACKUUP\\ANDROI~1\\AB4A5~1.0CO\\B4RPRO~1\\Blink\\Objects\\bin\\sketch\\B4RCore.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\BACKUUP\\ANDROI~1\\AB4A5~1.0CO\\B4RPRO~1\\Blink\\Objects\\bin\\sketch\\B4RStream.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\BACKUUP\\ANDROI~1\\AB4A5~1.0CO\\B4RPRO~1\\Blink\\Objects\\bin\\sketch\\Scheduler.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\BACKUUP\\ANDROI~1\\AB4A5~1.0CO\\B4RPRO~1\\Blink\\Objects\\bin\\sketch\\b4r_main.cpp",
+    "Include": "",
+    "Includepath": ""
+  }
+]
